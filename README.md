@@ -5,7 +5,7 @@
 
 安装完成后，下载训练好的models（在英文版readme.md），然后运行 [inference_demo.py](demo/inference_demo.py) to run a quick demo.
 
-###  multiple GPUs
+###  多显卡
     #  multiple GPUs trainng
     ./tools/dist_train.sh ${CONFIG_FILE} ${GPU_NUM}
 
@@ -18,7 +18,7 @@
     Example: 
     ./tools/dist_test.sh configs/solo/solo_r50_fpn_8gpu_1x.py SOLO_R50_1x.pth  8  --show --out results_solo.pkl --eval segm
 
-###  single GPU
+###  单显卡
     #  single GPU training
     python tools/train.py ${CONFIG_FILE}
     
@@ -58,7 +58,7 @@
 ### 具体操作：
 - 安装新环境
 ```shell
-conda create -n solo python=3.7 -y
+conda create -n solo python=3.6
 conda activate solo
 ```
 - 安装cudatoolkit和cudnn
@@ -73,7 +73,7 @@ conda install pytorch=1.4 torchvision
 ```shell
 pip install mmcv==0.2.16
 ```
--安装SOLO包
+- 安装SOLO包
 ```shell
 git clone https://github.com/WXinlong/SOLO.git
 cd SOLO
