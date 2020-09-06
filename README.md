@@ -1,9 +1,9 @@
-# SOLO: Segmenting Objects by Locations
+# SOLO: Segmenting Objects by Locations（SOLO and SOLO V2）
 ## 用法
 
 ### A quick demo
 
-Once the installation is done, you can download the provided models and use [inference_demo.py](demo/inference_demo.py) to run a quick demo.
+安装完成后，下载训练好的models（在英文版readme.md），然后运行 [inference_demo.py](demo/inference_demo.py) to run a quick demo.
 
 ###  multiple GPUs
     #  multiple GPUs trainng
@@ -49,7 +49,8 @@ Once the installation is done, you can download the provided models and use [inf
 - NCCL 2
 - GCC 4.9 or higher
 - [mmcv 0.2.16](https://github.com/open-mmlab/mmcv/tree/v0.2.16)
-- 我用的：
+
+我用的：
 - Python 3.6
 - PyTorch 1.4
 - CUDA 10.1
