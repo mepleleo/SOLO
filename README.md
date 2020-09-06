@@ -49,7 +49,7 @@ Once the installation is done, you can download the provided models and use [inf
 - NCCL 2
 - GCC 4.9 or higher
 - [mmcv 0.2.16](https://github.com/open-mmlab/mmcv/tree/v0.2.16)
-#我用的
+-我用的：
 - Python 3.6
 - PyTorch 1.4
 - CUDA 10.1
